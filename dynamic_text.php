@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is my official site </h1>
+    <?php
+    $title = 'This is my official site';
+    ?>
+    <h1> <?php  echo $title?> </h1>
 </body>
 </html>
